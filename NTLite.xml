@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>03/17/2021 18:32:50</Date>
+	<Date>03/17/2021 19:52:35</Date>
 	<AppInfo>
 		<Version>2.0.0.7640</Version>
 		<Licensed>Yes</Licensed>
@@ -23,7 +23,8 @@
 		<c>Microsoft.Getstarted 'Tips (Get Started)'</c>
 		<c>Microsoft.HEIFImageExtension 'HEIFImageExtension'</c>
 		<c>Microsoft.Microsoft3DViewer '3DViewer'</c>
-		<c>Microsoft.MicrosoftEdge.Stable 'Edge.Stable'</c>
+		<c>Microsoft.MicrosoftEdge 'Microsoft Edge (Legacy)'</c>
+		<c>Microsoft.MicrosoftEdgeDevToolsClient 'EdgeDevToolsClient'</c>
 		<c>Microsoft.MicrosoftOfficeHub 'OfficeHub'</c>
 		<c>Microsoft.MicrosoftSolitaireCollection 'SolitaireCollection'</c>
 		<c>Microsoft.MicrosoftStickyNotes 'StickyNotes'</c>
@@ -57,6 +58,7 @@
 		<c>migwiz 'Easy Transfer'</c>
 		<c>mixedreality 'Windows Mixed Reality'</c>
 		<c>onedrive</c>
+		<c>pdfreader 'Windows Reader (PDF)'</c>
 		<c>playready</c>
 		<c>retaildemo 'Retail Demo Content'</c>
 		<c>sendmail 'Send To Mail and Desktop'</c>
