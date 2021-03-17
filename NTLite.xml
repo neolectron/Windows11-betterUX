@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>03/12/2021 22:14:06</Date>
+	<Date>03/17/2021 18:32:50</Date>
 	<AppInfo>
 		<Version>2.0.0.7640</Version>
 		<Licensed>Yes</Licensed>
@@ -107,12 +107,12 @@
 		<Feature name="WindowsMediaPlayer">false</Feature>
 	</Features>
 	<AddPackages>
-		<Package>D:\programs\NTLite\Updates\10.0.20H2.x64.FOD\Microsoft-Windows-Client-LanguagePack-Package_fr-fr~31bf3856ad364e35~amd64~fr-fr~.cab</Package>
-		<Package>D:\programs\NTLite\Updates\10.0.20H2.x64.FOD\Microsoft-Windows-LanguageFeatures-Basic-fr-fr-Package~31bf3856ad364e35~amd64~~.cab</Package>
-		<Package>D:\programs\NTLite\Updates\10.0.20H2.x64.FOD\Microsoft-Windows-LanguageFeatures-Handwriting-fr-fr-Package~31bf3856ad364e35~amd64~~.cab</Package>
-		<Package>D:\programs\NTLite\Updates\10.0.20H2.x64.FOD\Microsoft-Windows-LanguageFeatures-OCR-fr-fr-Package~31bf3856ad364e35~amd64~~.cab</Package>
-		<Package>D:\programs\NTLite\Updates\10.0.20H2.x64.FOD\Microsoft-Windows-LanguageFeatures-Speech-fr-fr-Package~31bf3856ad364e35~amd64~~.cab</Package>
-		<Package>D:\programs\NTLite\Updates\10.0.20H2.x64.FOD\Microsoft-Windows-LanguageFeatures-TextToSpeech-fr-fr-Package~31bf3856ad364e35~amd64~~.cab</Package>
+		<Package>\\wsl$\Debian\home\manu\dev\clean-experience\packages\Microsoft-Windows-Client-LanguagePack-Package_fr-fr~31bf3856ad364e35~amd64~fr-fr~.cab</Package>
+		<Package>\\wsl$\Debian\home\manu\dev\clean-experience\packages\Microsoft-Windows-LanguageFeatures-Basic-fr-fr-Package~31bf3856ad364e35~amd64~~.cab</Package>
+		<Package>\\wsl$\Debian\home\manu\dev\clean-experience\packages\Microsoft-Windows-LanguageFeatures-Handwriting-fr-fr-Package~31bf3856ad364e35~amd64~~.cab</Package>
+		<Package>\\wsl$\Debian\home\manu\dev\clean-experience\packages\Microsoft-Windows-LanguageFeatures-OCR-fr-fr-Package~31bf3856ad364e35~amd64~~.cab</Package>
+		<Package>\\wsl$\Debian\home\manu\dev\clean-experience\packages\Microsoft-Windows-LanguageFeatures-Speech-fr-fr-Package~31bf3856ad364e35~amd64~~.cab</Package>
+		<Package>\\wsl$\Debian\home\manu\dev\clean-experience\packages\Microsoft-Windows-LanguageFeatures-TextToSpeech-fr-fr-Package~31bf3856ad364e35~amd64~~.cab</Package>
 	</AddPackages>
 	<Drivers showHidden="true">
 		<AddDrivers>
@@ -133,7 +133,7 @@
 		<settings pass="oobeSystem">
 			<component name="Microsoft-Windows-Shell-Setup">
 				<OEMInformation>
-					<Model>Troposphère VI</Model>
+					<Model>clean-experience</Model>
 				</OEMInformation>
 				<OOBE>
 					<HideEULAPage>true</HideEULAPage>
@@ -320,7 +320,6 @@
 			<Task>imageSaveTrim</Task>
 			<Task>deledition_boot.wim_01_9_64</Task>
 			<Task>imageFormatWim</Task>
-			<Task>imageOptionsCreateIso</Task>
 		</ImageTasks>
 		<AutoIsoFile>NTLite.iso</AutoIsoFile>
 		<AutoIsoLabel>NTLite</AutoIsoLabel>
@@ -337,5 +336,7 @@
 			</Item>
 		</Add>
 	</Execution>
-	<Registry></Registry>
+	<Registry>
+		<Item>\\wsl$\Debian\home\manu\dev\clean-experience\registry.reg</Item>
+	</Registry>
 </Preset>
