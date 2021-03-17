@@ -124,3 +124,8 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Search\CurrentPolicies\DefaultExcludedPaths]
 "%SYSTEMDRIVE%\Users"="%SYSTEMDRIVE%\Users"
+
+; Remove all start Menu Tiles, and lock it.
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer]
+"LockedStartLayout"=dword:00000001
+"REG_EXPAND_SZ StartLayoutFile"="C:\Windows\StartLayout.xml"
