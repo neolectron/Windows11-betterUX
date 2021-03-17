@@ -135,3 +135,10 @@ Windows Registry Editor Version 5.00
 "StartLayoutFile"=hex(2):43,00,3a,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,\
   73,00,5c,00,53,00,74,00,61,00,72,00,74,00,4c,00,61,00,79,00,6f,00,75,00,74,\
   00,2e,00,78,00,6d,00,6c,00,00,00
+
+; Remove "Browse the web with Microsoft Edge" popup on first logon
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
+"SoftLandingEnabled"=dword:00000000 
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CloudContent]
+"DisableHelpSticker"=dword:00000001
