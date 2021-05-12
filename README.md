@@ -1,25 +1,33 @@
 # Clean-experience
+> A non-destructive opinionated registry preset to improve Windows-10 user-experience.
 
-A non-destructive registry preset to improve the default user-experience with windows 10.
+
 Those presets aims to improve quality of life rather than focusing only on optimisation.
 
-Also with a NTLite preset to remove all useless UWP apps (Cortana/Meteo/etc...)
+You could also use the NTLite preset to remove all useless UWP apps (Cortana/Meteo/etc...)
 
 If any of theses changes doesn't suits your needs, it can still be changed after the installation is done.
 
-## NTLite
+
+### Registry
+
+All edited registry keys are user-experience settings that doesn't remove anything from your machine.
+
+The philosophy "opt-in by default" is preferred instead of Windows's "opt-out by default";
+which means if a new feature comes-in, it has good chances to be disabled (asap) here.
+
+If you feel like something is bothering you in Windows UX, please feel free to open an issue.
+
+### NTLite
 
 NTLite is a Windows configuration tool.
 You can use it to edit directly your OS on the fly, or the iso installation image.
 I **strongly** recommend using this preset with a fresh downloaded image from [microsoft.com](https://www.microsoft.com/fr-fr/software-download/windows10) .
 
-## Registry
 
-All edited registry keys are user-experience settings that cannot be found in the NTLite software.
+### List of changes made with the NTLite preset :
 
-## List of changes :
-
-|Toggling features using NTLite |State |
+|Toggling features              |State |
 |-------------------------------|------|
 |Netflix                        |Off   |
 |Spotify                        |Off   |
@@ -36,7 +44,7 @@ All edited registry keys are user-experience settings that cannot be found in th
 |Auto Accept EULA                       |
 
 
-|Removed Component using NTLite |
+|Removed Component              |
 |-------------------------------|
 |Holo MDL2 Assets               |
 |Game Explorer                  |
